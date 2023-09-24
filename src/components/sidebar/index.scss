@@ -1,0 +1,131 @@
+.nav-bar{
+    /* // background: rgba(255, 255, 255, 0.082);
+    // box-shadow: 0 8px 32px 0 #655c83a1;
+    // backdrop-filter: blur( 2px );
+    // -webkit-backdrop-filter: blur( 2px );
+    // // border-radius:  0px 250px 250px 0px ;
+    // border: 1px  rgba(183, 109, 226, 0);
+    // transition: background box-shadow 0.4s ease-in-out; */
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px; 
+
+    &:hover {
+      background:#473E65; 
+      box-shadow: none;
+    }
+
+  .logo{
+    display: block;
+    padding: 8px 0;
+  
+  img {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: auto;
+    &.sub-logo{
+      width: 40px;
+        
+    }
+  }
+}
+nav {
+  display: block;  
+  text-align: center;
+  position: absolute;
+  height: 210 px;
+  top: 50%;
+  margin-top: -120px;
+  width: 100%;
+  a{
+     font-size: 22px;
+     color:#F2926F ;
+     display: block;
+     line-height: 51px;
+     height: 51px;
+     position: relative;
+     text-decoration: none;
+     i{
+        transition: all 0.3s ease-out;
+     }
+     &:hover{
+        color:#EACAD1;
+        svg{
+            opacity: 0;
+        }
+       &:after{
+         opacity: 1;
+        }
+
+     }
+     &::after{
+      content: '';
+      text-align:center;
+      font-size: 9px;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: 0;
+      display: block;
+      margin-left: 0%;
+      width: 100%;
+     
+      opacity: 0;
+      transition: all 0.3s ease-out;
+
+     }
+     &:first-child {
+      &::after{
+        content: 'HOME';
+      }
+     }
+
+  }
+  a.about-link{
+    &:after{
+      content: 'ABOUT';
+      text-align: center;
+    }
+
+  }
+  a.contact-link{
+    &:after{
+      content: 'CONTACT';
+      text-align: center;
+      
+    }
+
+  }
+  a.active{
+    svg{
+    color:#EACAD1;
+  }
+}
+}
+ul{
+  position:absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  li{
+    a{
+      padding: 7px 0;
+      display: block;
+      font-size: 15px;
+      line-height: 16px;
+      &:hover svg {
+        color: #EACAD1;
+
+      }
+    }
+  }
+
+} 
+}

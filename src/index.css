@@ -1,0 +1,20 @@
+html{
+  font-size: 62.5%;
+  /* background: #473E65;  */
+
+}
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue','sans-serif';
+  color: #F2926F;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
