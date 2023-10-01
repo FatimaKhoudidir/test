@@ -40,10 +40,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\project-portfolio\src\components" />
+      <recent name="C:\Users\hp\Desktop\project-portfolio\public" />
       <recent name="C:\Users\hp\Desktop\project-portfolio\src\components\sidebar" />
       <recent name="C:\Users\hp\Desktop\project-portfolio\src\components\Layout" />
       <recent name="C:\Users\hp\Desktop\project-portfolio\src\assets\images" />
-      <recent name="C:\Users\hp\Desktop\project-portfolio\src\assets\fonts" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -69,7 +69,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695562328078</updated>
-      <workItem from="1695562329347" duration="2543000" />
+      <workItem from="1695562329347" duration="4065000" />
+      <workItem from="1695567069255" duration="1952000" />
+      <workItem from="1695902422957" duration="69000" />
+      <workItem from="1696198028184" duration="651000" />
     </task>
     <servers />
   </component>
